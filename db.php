@@ -1,8 +1,9 @@
 <?php 
+$conexion = new mysqli('localhost','root','','midb');
 
-$conexion = new mysqli("localhost","root","","example");
 
-//var_dump($conexion);
+
+
 
 
 

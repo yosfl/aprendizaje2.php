@@ -4,7 +4,11 @@
 include "db.php"; // conexion a la DB
 // INSERT THE INFORMATION
 
-$conexion->query("INSERT INTO users VALUES (
+$conexion->query("INSERT INTO users 
+
+
+
+ VALUES (
 
   null,
   '$_POST[first_name]',
