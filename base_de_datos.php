@@ -10,3 +10,5 @@ REATE TABLE users(
     phone BIGINT(10) NULL,
     age INT (2) NULL
  );
+
+ 
